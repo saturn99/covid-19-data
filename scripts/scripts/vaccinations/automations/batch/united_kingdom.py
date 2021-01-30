@@ -1,19 +1,45 @@
 import pandas as pd
 
+def get_metrics(metrics, area):
+    metrics = "".join(f"&metric={m}" for m in metrics)
+    url = f"https://api.coronavirus.data.gov.uk/v2/data?areaType={area}&format=csv{metrics}"
+    return pd.read_csv(url)
+
 def main():
 
-    uk = pd.read_csv("https://api.coronavirus.data.gov.uk/v2/data?areaType=overview&metric=cumPeopleReceivingFirstDose&metric=cumPeopleReceivingSecondDose&format=csv")
-    subnational = pd.read_csv("https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumPeopleReceivingFirstDose&metric=cumPeopleReceivingSecondDose&format=csv")
+    metrics = [
+        "cumPeopleVaccinatedFirstDoseByPublishDate",
+        "cumPeopleVaccinatedFirstDoseByVaccinationDate",
+        "cumPeopleVaccinatedSecondDoseByPublishDate",
+        "cumPeopleVaccinatedSecondDoseByVaccinationDate",
+    ]
 
-    df = pd.concat([uk, subnational])
+    uk = get_metrics(metrics, "overview")
+    subnational = get_metrics(metrics, "nation")
 
-    df = df.rename(columns={
-        "areaName": "location",
-        "cumPeopleReceivingFirstDose": "total_vaccinations"
-    })
+    df = pd.concat([uk, subnational]).reset_index(drop=True)
+    df = df.rename(columns={"areaName": "location"})
 
-    df = df[["date", "location", "total_vaccinations"]]
-    df.loc[:, "source_url"] = "https://coronavirus.data.gov.uk/"
+    df["dose1"] = df.cumPeopleVaccinatedFirstDoseByPublishDate
+    df.loc[df["dose1"].isna(), "dose1"] = df.cumPeopleVaccinatedFirstDoseByVaccinationDate
+
+    df["dose2"] = df.cumPeopleVaccinatedSecondDoseByPublishDate
+    df.loc[df["dose2"].isna(), "dose2"] = df.cumPeopleVaccinatedSecondDoseByVaccinationDate
+
+    df["total_vaccinations"] = (df["dose1"].add(df["dose2"]))
+
+    df["people_vaccinated"] = df["dose1"]
+
+    df["people_fully_vaccinated"] = df["dose2"]
+
+    df = (
+        df
+        .groupby(["location", "total_vaccinations", "people_vaccinated", "people_fully_vaccinated"], as_index=False)
+        [["date"]].min()
+        .replace(0, pd.NA)
+    )
+
+    df.loc[:, "source_url"] = "https://coronavirus.data.gov.uk/details/healthcare"
     df.loc[:, "vaccine"] = "Pfizer/BioNTech"
     df.loc[df["date"] >= "2021-01-04", "vaccine"] = "Oxford/AstraZeneca, Pfizer/BioNTech"
 

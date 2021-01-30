@@ -1,4 +1,3 @@
-import json
 import requests
 import pandas as pd
 import vaxutils
@@ -14,15 +13,22 @@ def main():
             data = d
             break
 
-    count = data["Doses_Administered"]
+    total_vaccinations = data["Doses_Administered"]
+    people_vaccinated = data["Administered_Dose1"]
+    people_fully_vaccinated = data["Administered_Dose2"]
 
     date = data["Date"]
-    # date = pd.to_datetime(date, format="%m/%d/%Y")
-    # date = str(date.date())
+    try:
+        date = pd.to_datetime(date, format="%m/%d/%Y")
+    except:
+        date = pd.to_datetime(date, format="%Y-%m-%d")
+    date = str(date.date())
 
     vaxutils.increment(
         location="United States",
-        total_vaccinations=count,
+        total_vaccinations=total_vaccinations,
+        people_vaccinated=people_vaccinated,
+        people_fully_vaccinated=people_fully_vaccinated,
         date=date,
         source_url="https://covid.cdc.gov/covid-data-tracker/#vaccinations",
         vaccine="Moderna, Pfizer/BioNTech"

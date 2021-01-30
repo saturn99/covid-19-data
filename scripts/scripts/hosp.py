@@ -2,6 +2,7 @@ import datetime
 import json
 import os
 import requests
+import numpy as np
 import pandas as pd
 
 
@@ -16,6 +17,7 @@ POPULATION = pd.read_csv(
 
 
 def download_data():
+    print("Downloading ECDC data…")
     df = pd.read_csv(SOURCE_URL, usecols=["country", "indicator", "date", "value", "year_week"])
     df = df.drop_duplicates()
     df = df.rename(columns={"country": "entity"})
@@ -48,6 +50,7 @@ def week_to_date(df):
 
 
 def add_united_states(df):
+    print("Downloading US data…")
     usa = pd.read_csv(
         "https://covidtracking.com/data/download/national-history.csv",
         usecols=[
@@ -90,6 +93,7 @@ def add_united_states(df):
 
 
 def add_canada(df):
+    print("Downloading Canada data…")
     url = "https://api.covid19tracker.ca/reports?after=2020-03-09"
     data = requests.get(url).json()
     data = json.dumps(data["data"])
@@ -110,9 +114,75 @@ def add_canada(df):
     return df
 
 
+def add_uk(df):
+    print("Downloading UK data…")
+    url = "https://api.coronavirus.data.gov.uk/v2/data?areaType=overview&metric=hospitalCases&metric=newAdmissions&metric=covidOccupiedMVBeds&format=csv"
+    uk = pd.read_csv(url, usecols=["date", "hospitalCases", "newAdmissions", "covidOccupiedMVBeds"])
+    uk.loc[:, "date"] = pd.to_datetime(uk["date"])
+
+    stock = uk[["date", "hospitalCases", "covidOccupiedMVBeds"]].copy()
+    stock = stock.melt("date", var_name="indicator")
+    stock.loc[:, "date"] = stock["date"].dt.date
+
+    flow = uk[["date", "newAdmissions"]].copy()
+    flow.loc[:, "date"] = (flow["date"] + pd.to_timedelta(6 - flow["date"].dt.dayofweek, unit="d")).dt.date
+    flow = flow[flow["date"] <= datetime.date.today()]
+    flow = flow.groupby("date", as_index=False).sum()
+    flow = flow.melt("date", var_name="indicator")
+
+    uk = pd.concat([stock, flow]).dropna(subset=["value"])
+    uk.loc[:, "indicator"] = uk["indicator"].replace({
+        "hospitalCases": "Daily hospital occupancy",
+        "covidOccupiedMVBeds": "Daily ICU occupancy",
+        "newAdmissions": "Weekly new hospital admissions",
+    })
+
+    uk.loc[:, "entity"] = "United Kingdom"
+    uk.loc[:, "iso_code"] = "GBR"
+    uk.loc[:, "population"] = 67886004
+
+    df = pd.concat([df, uk])
+    return df
+
+
+def add_israel(df):
+    print("Downloading Israel data…")
+    url = "https://datadashboardapi.health.gov.il/api/queries/patientsPerDate"
+    israel = pd.read_json(url)
+    israel.loc[:, "date"] = pd.to_datetime(israel["date"])
+
+    stock = israel[["date", "Counthospitalized", "CountCriticalStatus"]].copy()
+    stock.loc[:, "date"] = stock["date"].dt.date
+    stock.loc[stock["date"].astype(str) < "2020-08-17", "CountCriticalStatus"] = np.nan
+    stock = stock.melt("date", var_name="indicator")
+
+    flow = israel[["date", "new_hospitalized", "serious_critical_new"]].copy()
+    flow.loc[:, "date"] = (flow["date"] + pd.to_timedelta(6 - flow["date"].dt.dayofweek, unit="d")).dt.date
+    flow = flow[flow["date"] <= datetime.date.today()]
+    flow = flow.groupby("date", as_index=False).sum()
+    flow = flow.melt("date", var_name="indicator")
+
+    israel = pd.concat([stock, flow]).dropna(subset=["value"])
+    israel.loc[:, "indicator"] = israel["indicator"].replace({
+        "Counthospitalized": "Daily hospital occupancy",
+        "CountCriticalStatus": "Daily ICU occupancy",
+        "new_hospitalized": "Weekly new hospital admissions",
+        "serious_critical_new": "Weekly new ICU admissions"
+    })
+
+    israel.loc[:, "entity"] = "Israel"
+    israel.loc[:, "iso_code"] = "ISR"
+    israel.loc[:, "population"] = 8655541
+
+    return pd.concat([df, israel])
+
+
+
 def add_countries(df):
     df = add_united_states(df)
     df = add_canada(df)
+    df = add_uk(df)
+    df = add_israel(df)
     return df
 
 
@@ -127,7 +197,11 @@ def add_per_million(df):
 def owid_format(df):
     df.loc[:, "value"] = df["value"].round(3)
     df = df.drop(columns="iso_code")
-    # df = df.groupby(["entity", "date", "indicator"], as_index=False).max()
+
+    # Data cleaning
+    df = df[-df["indicator"].str.contains("Weekly new plot admissions")]
+    df = df.groupby(["entity", "date", "indicator"], as_index=False).max()
+
     df = df.pivot(index=["entity", "date"], columns="indicator").value.reset_index()
     return df
 

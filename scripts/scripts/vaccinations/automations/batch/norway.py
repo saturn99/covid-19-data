@@ -25,24 +25,36 @@ def main():
         command_result = driver.execute("send_command", params)
 
         driver.get(url)
-        driver.execute_script("window.scrollTo(0, 750)")
+        time.sleep(1)
+        driver.execute_script("window.scrollTo(0, 1500)")
         driver.find_element_by_class_name("highcharts-exporting-group").click()
 
         for item in driver.find_elements_by_class_name("highcharts-menu-item"):
             if item.text == "Last ned CSV":
                 item.click()
-                time.sleep(1)
+                time.sleep(2)
                 break
 
-    df = pd.read_csv("automations/antall-personer-vaksiner.csv", sep=";", usecols=["Category", "Totalt personer vaksinert med 1. dose"])
+    df = pd.read_csv("automations/antall-personer-vaksiner.csv", sep=";", usecols=[
+        "Category",
+        "Kumulativt antall personer vaksinert med 1.dose",
+        "Kumulativt antall personer vaksinert med 2.dose"
+    ])
 
     df = df.rename(columns={
-        "Totalt personer vaksinert med 1. dose": "total_vaccinations",
-        "Category": "date"
+        "Kumulativt antall personer vaksinert med 1.dose": "people_vaccinated",
+        "Kumulativt antall personer vaksinert med 2.dose": "people_fully_vaccinated"
     })
 
-    df["date"] = pd.to_datetime(df["date"], format="%d.%m.%y")
-    
+    df["total_vaccinations"] = df["people_vaccinated"] + df["people_fully_vaccinated"].fillna(0)
+
+    if "Category" in df.columns:
+        df = df.rename(columns={"Category": "date"})
+    elif "DateTime" in df.columns:
+        df = df.rename(columns={"DateTime": "date"})
+        
+    df["date"] = pd.to_datetime(df["date"], format="%Y-%m-%d")
+
     df.loc[:, "location"] = "Norway"
     df.loc[:, "vaccine"] = "Pfizer/BioNTech"
     df.loc[:, "source_url"] = url

@@ -5,7 +5,8 @@ df <- read_html(url) %>%
     html_table() %>%
     data.table()
 
-df[, Date := dmy(paste(Date, "2020"))]
+df[!str_detect(Date, "-21$"), Date := paste0(Date, "-20")]
+df[, Date := dmy(Date)]
 df[, `Tests per day` := NULL]
 setnames(df, "Cumulative", "Cumulative total")
 

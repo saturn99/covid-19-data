@@ -11,13 +11,13 @@ scripts_path = "automations/incremental/*.py" if execution_mode == "quick" else 
 
 scripts = glob(scripts_path)
 
-if len(SKIP) > 0:
+if SKIP:
     print(f"Warning message:\nSkipping the following countries: {', '.join(SKIP)}")
     SKIP = "|".join(SKIP)
     scripts = [s for s in scripts if not bool(re.search(pattern=SKIP, string=s))]
 
 for script_name in scripts:
-    if "vaxutils.py" in script_name:
+    if "vaxutils.py" in script_name or "/archived/" in script_name:
         continue
     print(f"{datetime.datetime.now().replace(microsecond=0)} - {script_name}")
     os.system(f"python3 {script_name}")

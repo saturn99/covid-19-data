@@ -1,28 +1,31 @@
-import datetime
-import pytz
 import re
 import requests
+import pandas as pd
 from bs4 import BeautifulSoup
 import vaxutils
 
+
 def main():
 
-    url = "https://thl.fi/en/web/infectious-diseases-and-vaccinations/what-s-new/coronavirus-covid-19-latest-updates/situation-update-on-coronavirus"
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, "html.parser")
+    url = "https://www.thl.fi/episeuranta/rokotukset/koronarokotusten_edistyminen.html"
+    soup = BeautifulSoup(requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}).content, "html.parser")
 
-    for tr in soup.find(class_="journal-content-article").find("table").find_all("tr"):
-        if "Nationwide total" in tr.text:
-            break
+    table = soup.find("table")
+    df = pd.read_html(str(table))[0]
+    df = df[df["Sairaanhoitopiiri"] == "Kaikki"]
 
-    count = tr.find_all("td")[1].text
-    count = vaxutils.clean_count(count)
+    people_vaccinated = int(df["Ensimmäisen annoksen saaneet"].values[0])
+    people_fully_vaccinated = int(df["Toisen annoksen saaneet"].values[0])
+    total_vaccinations = int(df["Annetut annokset yhteensä"].values[0])
 
-    date = str(datetime.datetime.now(pytz.timezone("Europe/Helsinki")).date())
+    date = soup.find(class_="date").text
+    date = re.search(r"[\d-]{10}", date).group(0)
 
     vaxutils.increment(
         location="Finland",
-        total_vaccinations=count,
+        total_vaccinations=total_vaccinations,
+        people_vaccinated=people_vaccinated,
+        people_fully_vaccinated=people_fully_vaccinated,
         date=date,
         source_url=url,
         vaccine="Pfizer/BioNTech"
