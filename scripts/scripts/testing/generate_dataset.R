@@ -7,7 +7,6 @@ library(lubridate)
 library(readr)
 library(retry)
 library(rjson)
-library(slackr)
 library(stringr)
 library(tidyr)
 library(zoo)
@@ -15,7 +14,7 @@ rm(list = ls())
 
 TESTING_FOLDER <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(TESTING_FOLDER)
-CONFIG <- fromJSON(file = "testing_dataset_config.json")
+CONFIG <- rjson::fromJSON(file = "testing_dataset_config.json")
 Sys.setlocale("LC_TIME", "en_US")
 
 # Utils
@@ -45,7 +44,6 @@ retry(
     interval = 20
 )
 stopifnot("Detailed description" %in% names(metadata))
-fwrite(metadata, sprintf("%s/backups/METADATA.csv", CONFIG$internal_shared_folder))
 sheet_names <- sort(metadata$Sheet)
 
 # Cut-off periods
@@ -58,7 +56,7 @@ setnames(confirmed_cases, c("date", "location"), c("Date", "Country"))
 confirmed_cases[, Date := ymd(Date)]
 
 # Exclude countries from positive rate calculations
-positive_rate_exclusions <- c("Ecuador", "Brazil", "Costa Rica")
+positive_rate_exclusions <- c("Brazil")
 
 # Process each country's data
 parse_country <- function(sheet_name) {
@@ -88,8 +86,6 @@ parse_country <- function(sheet_name) {
                matches("^Cumulative total$"),
                matches("^Daily change in cumulative total$"),
                matches("^Positive rate$"))
-
-    fwrite(collated, sprintf("%s/backups/%s.csv", CONFIG$internal_shared_folder, sheet_name))
 
     collated <- collated %>%
         inner_join(population, by = "Country") %>%
@@ -285,10 +281,10 @@ for (i in 1:nrow(secondary_series)) {
 
 copy_paste_annotation <- unique(grapher[!is.na(annotation), .(Country, annotation)])
 copy_paste_annotation <- paste(copy_paste_annotation$Country, copy_paste_annotation$annotation, sep = ": ")
-writeLines(copy_paste_annotation, sprintf("%s/copy_paste_annotation.txt", CONFIG$internal_shared_folder))
+writeLines(copy_paste_annotation, "grapher_annotations.txt")
 
 # Write grapher file
-fwrite(grapher, sprintf("../../grapher/COVID testing time series data.csv", CONFIG$internal_shared_folder))
+fwrite(grapher, "../../grapher/COVID testing time series data.csv")
 
 # Make public version
 public <- copy(collated)

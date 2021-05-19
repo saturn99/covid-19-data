@@ -11,13 +11,12 @@ import os
 from datetime import datetime, date, timedelta
 from functools import reduce
 import pandas as pd
-import numpy as np
 
 
-CURRENT_DIR = os.path.dirname(__file__)
-INPUT_DIR = os.path.join(CURRENT_DIR, "../input/")
-GRAPHER_DIR = os.path.join(CURRENT_DIR, "../grapher/")
-DATA_DIR = os.path.join(CURRENT_DIR, "../../public/data/")
+CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
+INPUT_DIR = os.path.abspath(os.path.join(CURRENT_DIR, "../input/"))
+GRAPHER_DIR = os.path.abspath(os.path.join(CURRENT_DIR, "../grapher/"))
+DATA_DIR = os.path.abspath(os.path.join(CURRENT_DIR, "../../public/data/"))
 
 
 def get_jhu():
@@ -87,7 +86,7 @@ def get_jhu():
 
 def get_reprod():
     reprod = pd.read_csv(
-        os.path.join(INPUT_DIR, "reproduction/database.csv"),
+        "https://github.com/crondonm/TrackingR/raw/main/Estimates-Database/database.csv",
         usecols=["Country/Region", "Date", "R", "days_infectious"]
     )
     reprod = (
@@ -108,8 +107,8 @@ def get_reprod():
 def get_hosp():
     hosp = pd.read_csv(os.path.join(GRAPHER_DIR, "COVID-2019 - Hospital & ICU.csv"))
     hosp = hosp.rename(columns={
-        "entity": "location",
-        "year": "date",
+        "Country": "location",
+        "Year": "date",
         "Daily ICU occupancy": "icu_patients",
         "Daily ICU occupancy per million": "icu_patients_per_million",
         "Daily hospital occupancy": "hosp_patients",
@@ -281,6 +280,20 @@ def get_cgrt():
     return cgrt
 
 
+def dict_to_compact_json(d: dict):
+    """
+    Encodes a Python dict into valid, minified JSON.
+    """
+    return json.dumps(
+        d,
+        # Use separators without any trailing whitespace to minimize file size.
+        # The defaults (", ", ": ") contain a trailing space.
+        separators=(",", ":"),
+        # The json library by default encodes NaNs in JSON, but this is invalid JSON.
+        # By having this False, an error will be thrown if a NaN exists in the data.
+        allow_nan=False
+    )
+
 def df_to_json(complete_dataset, output_path, static_columns):
     """
     Writes a JSON version of the complete dataset, with the ISO code at the root.
@@ -303,8 +316,29 @@ def df_to_json(complete_dataset, output_path, static_columns):
         ]
 
     with open(output_path, "w") as file:
-        file.write(json.dumps(megajson, separators=(",", ":")))
+        file.write(dict_to_compact_json(megajson))
 
+def df_to_columnar_json(complete_dataset, output_path):
+    """
+    Writes a columnar JSON version of the complete dataset.
+    NA values are dropped from the output.
+
+    In columnar JSON, the table headers are keys, and the values are lists
+    of all cells for a column.
+    Example:
+        {
+            "iso_code": ["AFG", "AFG", ... ],
+            "date": ["2020-03-01", "2020-03-02", ... ]
+        }
+    """
+    # Replace NaNs with None in order to be serializable to JSON.
+    # JSON doesn't support NaNs, but it does have null which is represented as None in Python.
+    columnar_dict = complete_dataset.where(
+        pd.notnull(complete_dataset),
+        None
+    ).to_dict(orient="list")
+    with open(output_path, "w") as file:
+        file.write(dict_to_compact_json(columnar_dict))
 
 def create_latest(df):
 
@@ -318,7 +352,118 @@ def create_latest(df):
     print("Writing latest version…")
     latest.to_csv(os.path.join(DATA_DIR, "latest/owid-covid-latest.csv"), index=False)
     latest.to_excel(os.path.join(DATA_DIR, "latest/owid-covid-latest.xlsx"), index=False)
-    latest.set_index("iso_code").to_json(os.path.join(DATA_DIR, "latest/owid-covid-latest.json"), orient="index")
+    latest.dropna(subset=["iso_code"]).set_index("iso_code").to_json(
+        os.path.join(DATA_DIR, "latest/owid-covid-latest.json"), orient="index"
+    )
+
+internal_files_columns = {
+    "cases-tests": [
+        "location",
+        "date",
+        "total_cases",
+        "new_cases",
+        "new_cases_smoothed",
+        "total_cases_per_million",
+        "new_cases_per_million",
+        "new_cases_smoothed_per_million",
+        "reproduction_rate",
+        "new_tests",
+        "total_tests",
+        "total_tests_per_thousand",
+        "new_tests_per_thousand",
+        "new_tests_smoothed",
+        "new_tests_smoothed_per_thousand",
+        "positive_rate",
+        "tests_per_case",
+        "tests_units",
+        "stringency_index",
+    ],
+    "deaths": [
+        "continent",
+        "location",
+        "date",
+        "total_deaths",
+        "new_deaths",
+        "new_deaths_smoothed",
+        "total_deaths_per_million",
+        "new_deaths_per_million",
+        "new_deaths_smoothed_per_million",
+        "cfr"
+    ],
+    "vaccinations": [
+        "location",
+        "date",
+        "total_vaccinations",
+        "people_vaccinated",
+        "people_fully_vaccinated",
+        "new_vaccinations",
+        "new_vaccinations_smoothed",
+        "total_vaccinations_per_hundred",
+        "people_vaccinated_per_hundred",
+        "people_fully_vaccinated_per_hundred",
+        "new_vaccinations_smoothed_per_million",
+        "population"
+    ],
+    "hospital-admissions": [
+        "location",
+        "date",
+        "icu_patients",
+        "icu_patients_per_million",
+        "hosp_patients",
+        "hosp_patients_per_million",
+        "weekly_icu_admissions",
+        "weekly_icu_admissions_per_million",
+        "weekly_hosp_admissions",
+        "weekly_hosp_admissions_per_million",
+    ],
+    "auxiliary": [
+        "iso_code",
+        "continent",
+        "location",
+        "date",
+        "population_density",
+        "median_age",
+        "aged_65_older",
+        "aged_70_older",
+        "gdp_per_capita",
+        "extreme_poverty",
+        "cardiovasc_death_rate",
+        "diabetes_prevalence",
+        "female_smokers",
+        "male_smokers",
+        "handwashing_facilities",
+        "hospital_beds_per_thousand",
+        "life_expectancy",
+        "human_development_index"
+    ]
+}
+
+def create_internal(df):
+
+    dir_path = os.path.join(DATA_DIR, "internal")
+    # Ensure internal/ dir is created
+    os.makedirs(dir_path, exist_ok=True)
+
+    # These are "key" or "attribute" columns.
+    # These columns are ignored when dropping rows with dropna().
+    non_value_columns = [
+        "iso_code",
+        "continent",
+        "location",
+        "date",
+        "population"
+    ]
+
+    df = df.copy()
+    # Insert CFR column to avoid calculating it on the client, and enable
+    # splitting up into cases & deaths columns.
+    df["cfr"] = (df["total_deaths"] * 100 / df["total_cases"]).round(3)
+
+    for name, columns in internal_files_columns.items():
+        output_path = os.path.join(dir_path, f"megafile--{name}.json")
+        value_columns = list(set(columns) - set(non_value_columns))
+        df_output = df[columns].dropna(subset=value_columns, how="all")
+        df_to_columnar_json(df_output, output_path)
 
 
 def generate_megafile():
@@ -349,7 +494,10 @@ def generate_megafile():
 
     print("\nFetching vaccination dataset…")
     vax = get_vax()
-    vax = vax[vax.location.isin(jhu.location)]
+    vax = vax[-vax.location.isin([
+        "England", "Northern Ireland", "Scotland", "Wales",
+        "High income", "Upper middle income", "Lower middle income", "Low income",
+    ])]
 
     print("\nFetching OxCGRT dataset…")
     cgrt = get_cgrt()
@@ -425,6 +573,9 @@ def generate_megafile():
 
     print("Writing to JSON…")
     df_to_json(all_covid, os.path.join(DATA_DIR, "owid-covid-data.json"), macro_variables.keys())
+
+    print("Creating internal files…")
+    create_internal(all_covid)
 
     # Store the last updated time
     timestamp_filename = os.path.join(DATA_DIR, "owid-covid-data-last-updated-timestamp.txt")

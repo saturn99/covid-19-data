@@ -1,339 +1,452 @@
-Date,Cumulative total,Country,Units,Source URL,Source label,Notes,Testing type
-2020-02-26,13,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-02-27,23,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-02-28,36,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-02-29,44,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-01,62,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-02,84,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-03,113,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-04,149,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-05,184,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-06,256,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-07,285,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-08,305,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-09,370,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-10,431,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-11,505,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-12,642,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-13,849,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-14,1015,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-15,1517,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-16,1838,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-17,2034,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-18,2577,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-19,2955,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-20,3363,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-21,4009,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-22,4175,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-23,4697,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-24,6124,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-25,7187,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-26,8364,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-27,9652,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-28,10715,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-29,11583,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-30,12769,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-03-31,14793,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-01,16208,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-02,18793,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-03,20421,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-04,21834,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-05,22746,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-06,24524,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-07,25883,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-08,27748,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-09,29340,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-10,31004,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-11,31950,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-12,32399,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-13,34097,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-14,35955,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-15,38218,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-16,39914,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-17,42105,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-18,42882,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-19,43558,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-20,45051,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-21,46711,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-22,48443,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-23,49686,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-24,50914,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-25,51592,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-26,52147,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-27,53426,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-28,55382,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-29,57213,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-04-30,58549,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-01,59313,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-02,60145,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-03,60816,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-04,62706,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-05,64468,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-06,66259,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-07,67780,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-08,68985,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-09,69741,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-10,70457,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-11,71689,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-12,73042,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-13,74411,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-14,75564,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-15,76486,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-16,77297,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-17,78123,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-18,79673,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-19,80919,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-20,82492,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-21,83548,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-22,84397,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-23,85028,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-24,86011,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-25,87815,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-26,89656,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-27,91034,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-28,92255,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-29,93474,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-30,94302,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-05-31,95165,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-01,96467,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-02,97988,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-03,99258,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-04,100596,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-05,101633,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-06,102453,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-07,103146,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-08,104596,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-09,106038,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-10,107226,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-11,108388,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-12,109413,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-13,110150,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-14,110959,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-15,112357,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-16,114128,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-17,115627,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-18,117204,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-19,118059,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-20,118590,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-21,118948,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-22,119569,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-23,119915,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-24,120370,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-25,121095,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-26,121662,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-27,122116,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-28,122574,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-29,123590,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-06-30,124420,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-01,125327,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-02,125852,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-03,126187,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-04,126575,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-05,126954,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-06,127755,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-07,128485,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-08,129088,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-09,129659,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-10,130081,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-11,130296,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-12,130574,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-13,131094,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-14,131748,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-15,132278,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-16,132822,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-17,133175,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-18,133368,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-19,133480,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-20,133961,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-21,134555,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-22,135130,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-23,135578,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-24,136009,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-25,136282,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-26,136438,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-27,136780,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-28,137433,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-29,138248,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-30,139108,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-07-31,139753,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-01,140175,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-02,140490,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-03,141289,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-04,142437,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-05,143578,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-06,144757,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-07,146421,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-08,146875,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-09,148185,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-10,149988,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-11,151682,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-12,153089,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-13,154774,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-14,156244,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-15,157472,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-16,157864,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-17,159431,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-18,160792,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-19,161887,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-20,162938,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-21,164326,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-22,164882,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-23,165299,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-24,166844,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-25,168543,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-26,170190,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-27,171778,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-28,173214,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-29,174024,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-30,174299,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-08-31,177052,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-01,178995,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-02,181659,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-03,184291,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-04,187113,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-05,188455,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-06,189347,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-07,191551,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-08,194040,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-09,196429,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-10,198867,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-11,201889,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-12,204015,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-13,205827,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-14,208886,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-15,212047,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-16,215642,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-17,218364,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-18,222373,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-19,224697,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-20,226678,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-21,230454,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-22,233495,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-23,237467,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-24,240964,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-25,244487,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-26,247613,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-27,251481,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-28,255627,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-29,259450,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-09-30,263190,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-01,266251,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-02,269944,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-03,271798,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-04,272796,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-05,276243,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-06,278148,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-07,282330,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-08,284823,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-09,287867,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-10,289466,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-11,290906,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-12,294337,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-13,296993,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-14,299962,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-15,302312,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-16,305098,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-17,306479,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-18,307689,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-19,310581,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-20,313245,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-21,315587,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-22,318262,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-23,320377,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-24,322428,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-25,323638,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-26,326252,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-27,329307,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-28,332330,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-29,335017,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-30,339350,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-10-31,341426,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-01,343181,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-02,346420,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-03,350973,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-04,354691,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-05,358707,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-06,363591,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-07,367097,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-08,370873,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-09,375339,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-10,380161,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-11,385392,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-12,390193,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-13,395983,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-14,401200,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-15,404692,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-16,409928,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-17,415440,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-18,422561,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-19,429402,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-20,434830,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-21,439761,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-22,443484,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-23,447533,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-24,453245,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-25,458858,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-26,464210,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-27,469956,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-28,475218,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-29,479140,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-11-30,483253,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-01,489663,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-02,495048,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-03,499706,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-04,506094,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-05,511791,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-06,514696,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-07,518781,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-08,524457,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-09,530185,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-10,533673,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-11,541358,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-12,544881,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-13,548858,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-14,553428,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-15,559320,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-16,565419,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-17,571601,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-18,577497,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-19,582769,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-20,585883,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-21,591557,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-22,597369,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-23,604474,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-24,608136,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-25,611203,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-26,613687,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-27,616632,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-28,620961,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-29,627591,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-30,633329,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2020-12-31,636830,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-01,639113,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-02,642531,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-03,645882,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-04,649655,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-05,655009,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-06,662126,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-07,667703,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-08,673042,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-09,676848,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-10,680335,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-11,684128,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-12,690893,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-13,696752,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-14,700957,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-15,705642,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-16,708835,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-17,711484,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-18,716695,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-19,721674,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-20,726905,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-21,731503,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-22,736462,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-23,741015,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-24,744101,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-25,748917,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-26,754916,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-27,760230,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
-2021-01-28,766328,Estonia,tests performed,https://www.koroonakaart.ee/en,Central Health Information System and Patient Portal,,PCR only
+Date,Cumulative total,Country,Units,Source URL,Source label,Notes
+2020-02-05,1,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-02-06,2,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-02-12,3,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-02-21,4,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-02-25,5,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-02-26,13,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-02-27,23,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-02-28,36,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-02-29,44,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-01,62,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-02,85,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-03,114,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-04,150,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-05,185,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-06,257,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-07,286,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-08,307,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-09,372,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-10,432,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-11,509,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-12,655,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-13,862,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-14,1029,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-15,1532,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-16,1885,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-17,2116,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-18,2597,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-19,2978,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-20,3393,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-21,4041,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-22,4206,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-23,4731,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-24,6171,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-25,7235,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-26,8399,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-27,9687,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-28,10750,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-29,11621,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-30,12815,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-03-31,14849,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-01,16262,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-02,18857,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-03,20489,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-04,21910,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-05,22826,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-06,24618,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-07,25978,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-08,27842,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-09,29446,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-10,31121,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-11,32063,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-12,32513,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-13,34218,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-14,36095,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-15,38377,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-16,40086,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-17,42285,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-18,43071,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-19,43748,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-20,45246,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-21,46928,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-22,48684,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-23,49933,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-24,51197,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-25,51883,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-26,52444,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-27,53756,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-28,55723,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-29,57568,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-04-30,58920,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-01,59695,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-02,60548,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-03,61223,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-04,63112,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-05,64882,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-06,66722,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-07,68234,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-08,69460,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-09,70230,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-10,70951,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-11,72193,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-12,73565,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-13,74932,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-14,76095,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-15,77027,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-16,77848,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-17,78678,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-18,80223,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-19,81472,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-20,83036,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-21,84099,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-22,84945,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-23,85579,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-24,86563,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-25,88367,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-26,90211,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-27,91593,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-28,92818,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-29,94039,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-30,94871,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-05-31,95740,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-01,97033,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-02,98555,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-03,99825,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-04,101165,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-05,102204,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-06,103028,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-07,103725,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-08,105177,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-09,106622,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-10,107809,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-11,108970,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-12,109999,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-13,110739,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-14,111549,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-15,112943,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-16,114718,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-17,116218,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-18,117793,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-19,118643,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-20,119173,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-21,119531,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-22,120156,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-23,120501,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-24,120959,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-25,121688,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-26,122258,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-27,122715,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-28,123168,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-29,124185,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-06-30,125011,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-01,125921,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-02,126443,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-03,126777,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-04,127167,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-05,127554,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-06,128355,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-07,129088,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-08,129690,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-09,130257,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-10,130675,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-11,130895,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-12,131177,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-13,131715,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-14,132365,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-15,132899,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-16,133445,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-17,133793,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-18,133985,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-19,134116,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-20,134626,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-21,135289,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-22,135811,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-23,136264,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-24,136674,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-25,136947,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-26,137118,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-27,137487,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-28,138144,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-29,138961,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-30,139733,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-07-31,140378,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-01,140800,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-02,141123,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-03,141931,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-04,143077,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-05,144200,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-06,145377,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-07,147046,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-08,147498,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-09,148816,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-10,150605,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-11,152299,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-12,153701,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-13,155388,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-14,156856,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-15,158090,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-16,158490,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-17,160060,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-18,161410,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-19,162504,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-20,163556,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-21,164948,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-22,165510,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-23,165934,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-24,167480,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-25,169182,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-26,170825,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-27,172409,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-28,173845,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-29,174659,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-30,174946,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-08-31,177713,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-01,179666,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-02,182342,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-03,184933,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-04,187754,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-05,189097,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-06,190010,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-07,192254,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-08,194731,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-09,197110,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-10,199552,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-11,202560,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-12,204697,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-13,206524,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-14,209609,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-15,212738,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-16,216347,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-17,219062,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-18,223073,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-19,225417,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-20,227406,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-21,231198,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-22,234303,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-23,238366,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-24,241736,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-25,245223,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-26,248362,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-27,252234,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-28,256388,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-29,260193,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-09-30,263933,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-01,267005,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-02,270714,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-03,272580,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-04,273591,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-05,277061,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-06,278926,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-07,283123,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-08,285621,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-09,288663,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-10,290282,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-11,291740,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-12,295165,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-13,297831,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-14,300834,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-15,303180,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-16,305959,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-17,307354,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-18,308583,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-19,311495,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-20,314160,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-21,316497,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-22,319183,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-23,321305,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-24,323373,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-25,324604,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-26,327234,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-27,330283,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-28,333315,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-29,336007,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-30,340354,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-10-31,342438,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-01,344208,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-02,347448,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-03,352019,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-04,355743,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-05,359774,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-06,364667,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-07,368201,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-08,371996,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-09,376479,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-10,381293,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-11,386557,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-12,391359,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-13,397155,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-14,402403,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-15,405914,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-16,411187,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-17,416696,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-18,423862,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-19,430728,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-20,436162,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-21,441131,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-22,444885,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-23,448980,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-24,454710,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-25,460364,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-26,465744,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-27,471524,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-28,476828,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-29,480794,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-11-30,484951,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-01,491403,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-02,496849,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-03,501589,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-04,508044,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-05,513834,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-06,516789,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-07,520919,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-08,526639,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-09,532410,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-10,535981,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-11,543690,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-12,547256,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-13,551262,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-14,555869,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-15,561827,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-16,568025,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-17,574302,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-18,580346,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-19,585649,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-20,588821,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-21,594577,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-22,600475,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-23,607683,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-24,611431,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-25,614580,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-26,617155,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-27,620187,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-28,624649,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-29,631319,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-30,637164,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2020-12-31,640742,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-01,643084,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-02,646607,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-03,650060,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-04,653954,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-05,659559,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-06,666735,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-07,672418,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-08,677839,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-09,681751,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-10,685315,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-11,689268,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-12,696144,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-13,702111,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-14,706414,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-15,711289,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-16,714453,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-17,717188,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-18,722489,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-19,728607,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-20,733994,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-21,738732,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-22,743767,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-23,748415,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-24,751605,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-25,756554,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-26,762739,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-27,768316,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-28,774569,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-29,779250,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-30,783020,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-01-31,786218,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-01,790627,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-02,796657,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-03,801917,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-04,807240,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-05,812882,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-06,816969,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-07,820071,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-08,825340,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-09,831240,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-10,836991,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-11,842351,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-12,847678,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-13,852662,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-14,855723,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-15,861482,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-16,867851,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-17,876428,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-18,882835,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-19,888562,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-20,893161,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-21,898962,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-22,905531,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-23,911440,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-24,916290,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-25,922690,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-26,932175,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-27,938411,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-02-28,943324,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-01,949922,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-02,957548,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-03,964538,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-04,972173,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-05,979731,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-06,986515,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-07,992032,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-08,998895,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-09,1006732,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-10,1016187,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-11,1023458,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-12,1032019,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-13,1037101,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-14,1043080,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-15,1050993,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-16,1059647,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-17,1067395,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-18,1075958,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-19,1083021,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-20,1089827,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-21,1094641,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-22,1100905,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-23,1108204,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-24,1115504,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-25,1121411,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-26,1129181,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-27,1133601,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-28,1136929,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-29,1143547,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-30,1149011,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-03-31,1155453,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-01,1161391,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-02,1164463,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-03,1168118,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-04,1171424,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-05,1177322,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-06,1183766,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-07,1188880,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-08,1194787,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-09,1200397,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-10,1204117,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-11,1207034,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-12,1213044,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-13,1218316,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-14,1223985,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-15,1229419,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-16,1234843,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-17,1241633,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-18,1244597,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-19,1250818,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-20,1255371,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-21,1261276,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-22,1266583,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-23,1271224,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-24,1274832,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-25,1276866,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-26,1282080,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-27,1286936,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-28,1291320,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-29,1296067,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-04-30,1300897,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-01,1304019,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-02,1306955,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-03,1312378,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-04,1317276,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-05,1321707,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-06,1326659,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-07,1331556,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-08,1334752,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-09,1337686,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-10,1343085,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-11,1347814,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-12,1352145,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-13,1357254,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-14,1362318,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-15,1365736,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,
+2021-05-16,1368621,Estonia,tests performed,https://www.terviseamet.ee/et/koroonaviirus/avaandmed,Estonian Health Board,

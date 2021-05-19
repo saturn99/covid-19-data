@@ -1,0 +1,87 @@
+date,people_vaccinated,people_fully_vaccinated,total_vaccinations,vaccine,location,source_url
+2021-02-22,47,0,47,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-02-23,579,0,579,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-02-24,579,0,579,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-02-25,579,0,579,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-02-26,6645,0,6645,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-02-27,13685,0,13685,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-02-28,20701,0,20701,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-01,27109,0,27109,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-02,40181,0,40181,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-03,51847,2,51849,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-04,62236,2,62238,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-05,72374,2,72376,Sinovac,Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-06,84031,3,84034,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-07,93023,4,93027,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-08,103848,4,103852,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-09,113523,5,113528,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-10,130545,6,130551,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-11,145905,6,145911,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-12,162227,6,162233,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-13,177107,7,177114,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-14,190727,7,190734,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-15,206090,7,206097,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-16,229417,7,229424,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-17,254016,7,254023,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-18,276642,7,276649,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-19,304248,7,304255,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-20,330617,7,330624,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-21,354438,7,354445,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-22,379649,50,379699,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-23,403086,445,403531,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-24,412829,477,413306,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-25,421021,505,421526,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-26,429540,5703,435243,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-27,437272,12011,449283,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-28,443907,18550,462457,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-29,450525,24603,475128,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-30,455933,34393,490326,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-03-31,461066,44040,505106,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-01,466288,54094,520382,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-02,471431,59811,531242,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-03,475056,68935,543991,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-04,478885,77190,556075,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-05,486985,90256,577241,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-06,502704,113305,616009,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-07,516034,143762,659796,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-08,529491,170823,700314,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-09,543642,201403,745045,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-10,559943,231617,791560,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-11,578953,255948,834901,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-12,597568,280683,878251,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-13,615428,303538,918966,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-14,632379,318745,951124,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-15,649015,332092,981107,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-16,671898,345961,1017859,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-17,697347,359937,1057284,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-18,719916,371199,1091115,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-19,741403,382181,1123584,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-20,758691,390975,1149666,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-21,773901,399204,1173105,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-22,789292,407364,1196656,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-23,806739,416149,1222888,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-24,828266,424809,1253075,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-25,842693,432493,1275186,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-26,859950,442260,1302210,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-27,872394,454484,1326878,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-28,884185,467579,1351764,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-29,897026,480493,1377519,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-04-30,916331,497457,1413788,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-01,936410,518017,1454427,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-02,952160,539785,1491945,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-03,971950,557718,1529668,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-04,989783,573073,1562856,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-05,1005445,588188,1593633,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-06,1021240,602832,1624072,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-07,1038385,623997,1662382,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-08,1055537,648932,1704469,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-09,1071478,670210,1741688,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-10,1087223,689353,1776576,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-11,1100447,704639,1805086,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-12,1112113,718759,1830872,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-13,1123415,733233,1856648,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-14,1138091,750540,1888631,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-15,1153994,772269,1926263,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-16,1167893,787202,1955095,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-17,1180471,803880,1984351,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard
+2021-05-18,1193615,816679,2010294,"Pfizer/BioNTech, Sinovac",Hong Kong,https://www.covidvaccine.gov.hk/en/dashboard

@@ -1,0 +1,59 @@
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated
+Azerbaijan,2021-01-17,Sinovac,https://eurasianet.org/azerbaijan-starts-mass-covid-19-vaccinations,0,0,
+Azerbaijan,2021-02-06,Sinovac,https://eurasianet.org/azerbaijan-starts-mass-covid-19-vaccinations,65000,65000,
+Azerbaijan,2021-03-01,Sinovac,https://koronavirusinfo.az/az/post/675,293360,293360,
+Azerbaijan,2021-03-03,Sinovac,https://koronavirusinfo.az/az/post/679,337315,337315,
+Azerbaijan,2021-03-09,Sinovac,https://koronavirusinfo.az/az/post/689,411496,411496,
+Azerbaijan,2021-03-10,Sinovac,https://koronavirusinfo.az/az/post/691,428635,428635,
+Azerbaijan,2021-03-11,Sinovac,https://koronavirusinfo.az/az/post/693,436849,436849,
+Azerbaijan,2021-03-12,Sinovac,https://koronavirusinfo.az/az/post/696,443888,443888,
+Azerbaijan,2021-03-13,Sinovac,https://koronavirusinfo.az/az/post/698,450316,450316,
+Azerbaijan,2021-03-14,Sinovac,https://koronavirusinfo.az/az/post/700,453586,453586,
+Azerbaijan,2021-03-20,Sinovac,https://koronavirusinfo.az/az/post/715,482664,482664,
+Azerbaijan,2021-03-26,Sinovac,https://koronavirusinfo.az/az/post/725,510420,510420,
+Azerbaijan,2021-04-01,Sinovac,https://koronavirusinfo.az/az/post/738,856363,558485,297878
+Azerbaijan,2021-04-02,Sinovac,https://koronavirusinfo.az/az/post/740,889033,569994,319039
+Azerbaijan,2021-04-03,Sinovac,https://koronavirusinfo.az/az/post/741,924813,582463,342350
+Azerbaijan,2021-04-04,Sinovac,https://koronavirusinfo.az/az/post/743,947745,590914,356831
+Azerbaijan,2021-04-05,Sinovac,https://koronavirusinfo.az/az/post/745,947947,591012,356935
+Azerbaijan,2021-04-06,Sinovac,https://koronavirusinfo.az/az/post/749,982291,611471,370820
+Azerbaijan,2021-04-07,Sinovac,https://koronavirusinfo.az/az/post/751,1025790,639463,386327
+Azerbaijan,2021-04-08,Sinovac,https://koronavirusinfo.az/az/post/753,1069488,672503,396985
+Azerbaijan,2021-04-09,Sinovac,https://koronavirusinfo.az/az/post/754,1111722,706433,405289
+Azerbaijan,2021-04-10,Sinovac,https://koronavirusinfo.az/az/post/756,1153549,739319,414230
+Azerbaijan,2021-04-11,Sinovac,https://koronavirusinfo.az/az/post/759,1177087,758275,418812
+Azerbaijan,2021-04-12,Sinovac,https://koronavirusinfo.az/az/post/761,1177187,758289,418898
+Azerbaijan,2021-04-13,Sinovac,https://koronavirusinfo.az/az/post/763,1212163,787066,425097
+Azerbaijan,2021-04-14,Sinovac,https://koronavirusinfo.az,1243191,813413,429778
+Azerbaijan,2021-04-15,Sinovac,https://koronavirusinfo.az,1271791,837304,434487
+Azerbaijan,2021-04-16,Sinovac,https://koronavirusinfo.az,1299323,859338,439985
+Azerbaijan,2021-04-17,Sinovac,https://koronavirusinfo.az,1325034,879356,445678
+Azerbaijan,2021-04-18,Sinovac,https://koronavirusinfo.az,1337361,889216,448145
+Azerbaijan,2021-04-19,Sinovac,https://koronavirusinfo.az,1337380,889232,448148
+Azerbaijan,2021-04-20,Sinovac,https://koronavirusinfo.az,1352210,899213,452997
+Azerbaijan,2021-04-21,Sinovac,https://koronavirusinfo.az,1366890,908672,458218
+Azerbaijan,2021-04-22,Sinovac,https://koronavirusinfo.az,1381967,917877,464090
+Azerbaijan,2021-04-23,Sinovac,https://koronavirusinfo.az,1396391,926076,470315
+Azerbaijan,2021-04-24,Sinovac,https://koronavirusinfo.az,1412481,934906,477575
+Azerbaijan,2021-04-25,Sinovac,https://koronavirusinfo.az,1423295,939098,484197
+Azerbaijan,2021-04-26,Sinovac,https://koronavirusinfo.az,1423660,939460,484200
+Azerbaijan,2021-04-27,Sinovac,https://koronavirusinfo.az,1440243,946834,493409
+Azerbaijan,2021-04-28,Sinovac,https://koronavirusinfo.az,1456114,953545,502569
+Azerbaijan,2021-04-29,Sinovac,https://koronavirusinfo.az,1471579,959804,511775
+Azerbaijan,2021-04-30,Sinovac,https://koronavirusinfo.az,1488218,966132,522086
+Azerbaijan,2021-05-01,Sinovac,https://koronavirusinfo.az,1505206,971523,533683
+Azerbaijan,2021-05-02,Sinovac,https://koronavirusinfo.az,1516923,975208,541715
+Azerbaijan,2021-05-04,Sinovac,https://koronavirusinfo.az,1536328,980005,556323
+Azerbaijan,2021-05-05,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1566106,987962,578144
+Azerbaijan,2021-05-06,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1593883,992252,601631
+Azerbaijan,2021-05-07,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1626916,996400,630516
+Azerbaijan,2021-05-08,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1661772,1001968,659804
+Azerbaijan,2021-05-09,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1687397,1005678,681719
+Azerbaijan,2021-05-10,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1687567,1005704,681863
+Azerbaijan,2021-05-11,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1705906,1009487,696419
+Azerbaijan,2021-05-12,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1727510,1014495,713015
+Azerbaijan,2021-05-13,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1748525,1019352,729173
+Azerbaijan,2021-05-14,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1761632,1022479,739153
+Azerbaijan,2021-05-15,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1777426,1026376,751050
+Azerbaijan,2021-05-16,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1795049,1030831,764218
+Azerbaijan,2021-05-18,"Oxford/AstraZeneca, Sinovac",https://koronavirusinfo.az,1834657,1042781,791876

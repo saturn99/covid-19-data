@@ -21,12 +21,12 @@ git checkout $BRANCH
 git pull
 
 # =====================================================================
-# Vaccination data
+# Global vaccination data
 
 # Always run the database update.
 # The script itself contains a check against the database
 # to make sure it doesn't run unnecessarily.
-run_python 'import vaccinations; vaccinations.update_db()'
+run_python 'import global_vaccinations; global_vaccinations.update_db()'
 
 # =====================================================================
 # Testing data
@@ -34,7 +34,7 @@ run_python 'import vaccinations; vaccinations.update_db()'
 # Always run the database update.
 # The script itself contains a check against the database
 # to make sure it doesn't run unnecessarily.
-run_python 'import testing; testing.update_db()'
+run_python 'import global_testing; global_testing.update_db()'
 
 # =====================================================================
 # YouGov Imperial COVID-19 behavior tracker data
@@ -45,9 +45,9 @@ run_python 'import testing; testing.update_db()'
 run_python 'import yougov; yougov.update_db()'
 
 # =====================================================================
-# COVID-19 - United States vaccination data
+# COVID-19 - Vaccinations by manufacturer
 
 # Always run the database update.
 # The script itself contains a check against the database
 # to make sure it doesn't run unnecessarily.
-# run_python 'import us_vaccinations; us_vaccinations.update_db()'
+run_python 'import vax_by_manufacturer; vax_by_manufacturer.update_db()'

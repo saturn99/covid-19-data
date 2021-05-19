@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
-SOURCE_URL = "https://www3.dmsc.moph.go.th/"
+SOURCE_URL = "https://service.dmsc.moph.go.th/labscovid19/"
 
 
 def main():
@@ -33,7 +33,7 @@ def main():
 
         driver.get(SOURCE_URL)
         time.sleep(10)
-        links = driver.find_elements_by_css_selector(".app-body .bg-white .container center a")
+        links = driver.find_elements_by_css_selector(".services a")
         for link in links:
             if "Raw Data" in link.text:
                 nextcloud = link.get_attribute("href")
@@ -43,14 +43,14 @@ def main():
         driver.find_element_by_css_selector(".directDownload a").click()
         time.sleep(2)
 
-    file = glob("tmp/Thailand*")[0]
+    file = glob("tmp/*Thailand*")[0]
     df = pd.read_excel(file)
     df.loc[:, "Date"] = pd.to_datetime(df["Date"], errors="coerce")
-    df = df[["Date", "Total"]].dropna()
-    df = df[df["Total"] > 0]
-    df = df.rename(columns={"Total": "Daily change in cumulative total"})
+    df = df[["Date", "Pos", "Total"]].dropna().sort_values("Date")
+    df["Positive rate"] = (df.Pos.rolling(7).mean() / df.Total.rolling(7).mean()).round(3)
+    df = df.rename(columns={"Total": "Daily change in cumulative total"}).drop(columns="Pos")
+    df = df[df["Daily change in cumulative total"] > 0]
 
-    df.loc[:, "Daily change in cumulative total"] = df["Daily change in cumulative total"].astype(int)
     df.loc[:, "Country"] = "Thailand"
     df.loc[:, "Source URL"] = SOURCE_URL
     df.loc[:, "Source label"] = "Ministry of Public Health"

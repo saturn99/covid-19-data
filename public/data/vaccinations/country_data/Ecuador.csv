@@ -1,4 +1,58 @@
 location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated
-Ecuador,2021-01-21,Pfizer/BioNTech,https://twitter.com/munozmalejandra/status/1352700559078338562,0,,
-Ecuador,2021-01-22,Pfizer/BioNTech,https://twitter.com/munozmalejandra/status/1352700559078338562,108,,
-Ecuador,2021-01-28,Pfizer/BioNTech,https://twitter.com/salud_ec/status/1354577588866457600?s=21,2982,,
+Ecuador,2021-01-21,Pfizer/BioNTech,https://github.com/andrab/ecuacovid,0,0,0
+Ecuador,2021-01-22,Pfizer/BioNTech,https://github.com/andrab/ecuacovid,108,108,0
+Ecuador,2021-01-27,Pfizer/BioNTech,https://github.com/andrab/ecuacovid,2982,2982,0
+Ecuador,2021-02-04,Pfizer/BioNTech,https://github.com/andrab/ecuacovid,6228,6228,0
+Ecuador,2021-02-17,Pfizer/BioNTech,https://github.com/andrab/ecuacovid,8190,6228,1962
+Ecuador,2021-02-24,Pfizer/BioNTech,https://github.com/andrab/ecuacovid,24492,20784,3708
+Ecuador,2021-03-01,Pfizer/BioNTech,https://github.com/andrab/ecuacovid,42114,35886,6228
+Ecuador,2021-03-04,Pfizer/BioNTech,https://github.com/andrab/ecuacovid,59316,53088,6228
+Ecuador,2021-03-05,Pfizer/BioNTech,https://github.com/andrab/ecuacovid,71148,64920,6228
+Ecuador,2021-03-08,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,74472,68244,6228
+Ecuador,2021-03-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,75258,69030,6228
+Ecuador,2021-03-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,95915,89687,6228
+Ecuador,2021-03-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,123176,116948,6228
+Ecuador,2021-03-13,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,139359,119222,20137
+Ecuador,2021-03-15,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,141191,121054,20137
+Ecuador,2021-03-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,178970,140765,38205
+Ecuador,2021-03-23,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,182261,143614,38647
+Ecuador,2021-03-24,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,191179,152526,38653
+Ecuador,2021-03-26,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,230770,172413,58357
+Ecuador,2021-03-27,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,235000,174642,60358
+Ecuador,2021-03-29,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,244866,182329,62537
+Ecuador,2021-04-01,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,283106,204902,78204
+Ecuador,2021-04-04,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,301069,211720,89349
+Ecuador,2021-04-05,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,335093,228504,106589
+Ecuador,2021-04-06,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,356783,244159,112624
+Ecuador,2021-04-08,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,363255,250631,112624
+Ecuador,2021-04-14,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,480962,338180,142782
+Ecuador,2021-04-15,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,485132,338180,146952
+Ecuador,2021-04-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,514151,354019,160132
+Ecuador,2021-04-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,545132,377199,167933
+Ecuador,2021-04-18,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,554369,384093,170276
+Ecuador,2021-04-19,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,577711,401871,175840
+Ecuador,2021-04-20,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,601229,421937,179292
+Ecuador,2021-04-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,643702,457403,186299
+Ecuador,2021-04-22,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,675510,486524,188986
+Ecuador,2021-04-23,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,711204,514854,196350
+Ecuador,2021-04-24,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,732717,532367,200350
+Ecuador,2021-04-25,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,743937,541420,202517
+Ecuador,2021-04-26,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,765489,555265,210224
+Ecuador,2021-04-27,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,816175,595699,220476
+Ecuador,2021-04-28,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,861393,633421,227972
+Ecuador,2021-04-29,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,920865,691000,229865
+Ecuador,2021-04-30,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,987452,748021,239431
+Ecuador,2021-05-01,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1036794,791822,244972
+Ecuador,2021-05-02,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1067472,821960,245512
+Ecuador,2021-05-04,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1141262,889218,252044
+Ecuador,2021-05-05,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1182085,924539,257546
+Ecuador,2021-05-06,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1215676,953238,262438
+Ecuador,2021-05-07,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1245822,981620,264202
+Ecuador,2021-05-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1289962,1024121,265841
+Ecuador,2021-05-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1339196,1066590,272606
+Ecuador,2021-05-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1355698,1076427,279271
+Ecuador,2021-05-13,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1405898,1101897,304001
+Ecuador,2021-05-14,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1456293,1138269,318024
+Ecuador,2021-05-15,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1485936,1152298,333638
+Ecuador,2021-05-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1524724,1179062,345662
+Ecuador,2021-05-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Sinovac",https://github.com/andrab/ecuacovid,1560453,1203517,356936

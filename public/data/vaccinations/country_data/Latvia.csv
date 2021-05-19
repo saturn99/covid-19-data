@@ -1,29 +1,138 @@
 location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated
-Latvia,2020-12-28,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,595,,
-Latvia,2020-12-29,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,1473,,
-Latvia,2020-12-30,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,2261,,
-Latvia,2021-01-04,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,2960,,
-Latvia,2021-01-05,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,3849,,
-Latvia,2021-01-06,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,4625,,
-Latvia,2021-01-07,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,5433,,
-Latvia,2021-01-08,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,6338,,
-Latvia,2021-01-09,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,6641,,
-Latvia,2021-01-10,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,6972,,
-Latvia,2021-01-11,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,8334,,
-Latvia,2021-01-12,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,9954,,
-Latvia,2021-01-13,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,11460,,
-Latvia,2021-01-14,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,13277,,
-Latvia,2021-01-15,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,15142,,
-Latvia,2021-01-16,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,15805,,
-Latvia,2021-01-17,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,15922,,
-Latvia,2021-01-18,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,16765,,
-Latvia,2021-01-19,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,17641,,
-Latvia,2021-01-20,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,18411,,
-Latvia,2021-01-21,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,18690,,
-Latvia,2021-01-22,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,18903,,
-Latvia,2021-01-23,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,19018,,
-Latvia,2021-01-25,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,19685,,
-Latvia,2021-01-26,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,20533,,
-Latvia,2021-01-27,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,21351,,
-Latvia,2021-01-28,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,22130,,
-Latvia,2021-01-29,Pfizer/BioNTech,https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,23091,,
+Latvia,2020-12-28,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,595,595,0
+Latvia,2020-12-29,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,1468,1468,0
+Latvia,2020-12-30,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,2260,2260,0
+Latvia,2021-01-04,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,2959,2959,0
+Latvia,2021-01-05,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,3848,3848,0
+Latvia,2021-01-06,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,4624,4624,0
+Latvia,2021-01-07,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,5433,5433,0
+Latvia,2021-01-08,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,6340,6340,0
+Latvia,2021-01-09,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,6645,6645,0
+Latvia,2021-01-10,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,6981,6981,0
+Latvia,2021-01-11,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,8348,8348,0
+Latvia,2021-01-12,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,9975,9975,0
+Latvia,2021-01-13,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,11487,11487,0
+Latvia,2021-01-14,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,13311,13311,0
+Latvia,2021-01-15,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,15185,15185,0
+Latvia,2021-01-16,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,15853,15853,0
+Latvia,2021-01-17,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,15970,15970,0
+Latvia,2021-01-18,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,16814,16243,571
+Latvia,2021-01-19,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,17691,16315,1376
+Latvia,2021-01-20,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,18462,16334,2128
+Latvia,2021-01-21,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,18741,16600,2141
+Latvia,2021-01-22,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,18957,16799,2158
+Latvia,2021-01-23,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,19083,16925,2158
+Latvia,2021-01-25,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,19751,16944,2807
+Latvia,2021-01-26,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,20604,16974,3630
+Latvia,2021-01-27,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,21424,17055,4369
+Latvia,2021-01-28,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,22207,17084,5123
+Latvia,2021-01-29,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,23170,17136,6034
+Latvia,2021-01-30,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,23478,17140,6338
+Latvia,2021-01-31,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,23812,17140,6672
+Latvia,2021-02-01,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,25000,17153,7847
+Latvia,2021-02-02,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,26815,17290,9525
+Latvia,2021-02-03,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,28438,17534,10904
+Latvia,2021-02-04,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,29945,17674,12271
+Latvia,2021-02-05,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,31614,17836,13778
+Latvia,2021-02-06,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,32183,17845,14338
+Latvia,2021-02-07,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,32308,17847,14461
+Latvia,2021-02-08,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,32719,18103,14616
+Latvia,2021-02-09,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,32903,18244,14659
+Latvia,2021-02-10,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,33533,18675,14858
+Latvia,2021-02-11,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,35319,19779,15540
+Latvia,2021-02-12,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,37054,20956,16098
+Latvia,2021-02-13,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,37455,21180,16275
+Latvia,2021-02-14,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,37476,21181,16295
+Latvia,2021-02-15,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,38352,21902,16450
+Latvia,2021-02-16,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,39735,23209,16526
+Latvia,2021-02-17,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,41733,25028,16705
+Latvia,2021-02-18,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,43287,26528,16759
+Latvia,2021-02-19,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,44640,27824,16816
+Latvia,2021-02-20,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,45412,28577,16835
+Latvia,2021-02-21,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,46220,29385,16835
+Latvia,2021-02-22,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,48005,31139,16866
+Latvia,2021-02-23,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,50401,33506,16895
+Latvia,2021-02-24,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,54720,37793,16927
+Latvia,2021-02-25,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,58914,41945,16969
+Latvia,2021-02-26,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,62297,45240,17057
+Latvia,2021-02-27,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,62887,45821,17066
+Latvia,2021-02-28,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,63017,45950,17067
+Latvia,2021-03-01,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,64780,47486,17294
+Latvia,2021-03-02,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,66964,49368,17596
+Latvia,2021-03-03,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,71083,53298,17785
+Latvia,2021-03-04,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,77072,59170,17902
+Latvia,2021-03-05,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,81908,63869,18039
+Latvia,2021-03-06,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,82681,64638,18043
+Latvia,2021-03-07,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,82760,64714,18046
+Latvia,2021-03-08,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,84461,66378,18083
+Latvia,2021-03-09,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,86818,68710,18108
+Latvia,2021-03-10,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,89290,71149,18141
+Latvia,2021-03-11,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,91941,73790,18151
+Latvia,2021-03-12,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,96908,78749,18159
+Latvia,2021-03-13,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,97820,79660,18160
+Latvia,2021-03-14,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,97892,79732,18160
+Latvia,2021-03-15,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,101630,83407,18223
+Latvia,2021-03-16,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,101812,83467,18345
+Latvia,2021-03-17,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,101983,83533,18450
+Latvia,2021-03-18,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,102257,83547,18710
+Latvia,2021-03-19,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,102957,83960,18997
+Latvia,2021-03-20,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,103357,84360,18997
+Latvia,2021-03-21,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,103381,84384,18997
+Latvia,2021-03-22,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,106004,86777,19227
+Latvia,2021-03-23,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,111485,91870,19615
+Latvia,2021-03-24,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,117603,97305,20298
+Latvia,2021-03-25,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,122985,102012,20973
+Latvia,2021-03-26,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,126985,105316,21669
+Latvia,2021-03-27,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,127549,105555,21994
+Latvia,2021-03-28,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,127579,105585,21994
+Latvia,2021-03-29,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,129689,107300,22389
+Latvia,2021-03-30,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,134704,111605,23099
+Latvia,2021-03-31,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,140432,116103,24329
+Latvia,2021-04-01,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,144590,119537,25053
+Latvia,2021-04-02,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,145154,120101,25053
+Latvia,2021-04-03,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,148510,123389,25121
+Latvia,2021-04-04,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,150130,125009,25121
+Latvia,2021-04-05,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,152990,127868,25122
+Latvia,2021-04-06,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,158380,132761,25619
+Latvia,2021-04-07,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,167580,141488,26092
+Latvia,2021-04-08,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,174637,148275,26362
+Latvia,2021-04-09,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,179492,152946,26546
+Latvia,2021-04-10,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,181141,154513,26628
+Latvia,2021-04-11,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,181227,154599,26628
+Latvia,2021-04-12,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,183634,156949,26685
+Latvia,2021-04-13,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,187331,160580,26751
+Latvia,2021-04-14,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,193637,166645,26992
+Latvia,2021-04-15,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,199574,171916,27658
+Latvia,2021-04-16,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,208615,180304,28311
+Latvia,2021-04-17,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,214810,186401,28409
+Latvia,2021-04-18,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,215731,187322,28409
+Latvia,2021-04-19,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,219641,190592,29049
+Latvia,2021-04-20,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,226963,196004,30959
+Latvia,2021-04-21,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,237100,203166,33934
+Latvia,2021-04-22,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,246890,210485,36405
+Latvia,2021-04-23,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,257643,219205,38438
+Latvia,2021-04-24,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,263699,224604,39095
+Latvia,2021-04-25,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,265056,225932,39124
+Latvia,2021-04-26,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,269541,228561,40980
+Latvia,2021-04-27,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,276993,233200,43864
+Latvia,2021-04-28,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,291564,244226,47521
+Latvia,2021-04-29,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,305849,254516,51557
+Latvia,2021-04-30,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,317325,263449,54181
+Latvia,2021-05-01,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,324216,269828,54693
+Latvia,2021-05-02,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,325815,271407,54723
+Latvia,2021-05-03,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,328763,273464,55614
+Latvia,2021-05-04,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,337586,282150,55754
+Latvia,2021-05-05,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,354039,291533,62956
+Latvia,2021-05-06,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,375487,304917,71178
+Latvia,2021-05-07,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,394988,316580,79159
+Latvia,2021-05-08,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,406899,326413,81284
+Latvia,2021-05-09,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,408519,327744,81653
+Latvia,2021-05-10,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,417687,332665,86024
+Latvia,2021-05-11,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,435158,345181,91256
+Latvia,2021-05-12,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,456792,360330,98131
+Latvia,2021-05-13,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,476682,373394,105347
+Latvia,2021-05-14,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,495116,383599,114113
+Latvia,2021-05-15,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,505943,390477,118142
+Latvia,2021-05-16,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,510554,394131,119119
+Latvia,2021-05-17,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,519856,399472,123447
+Latvia,2021-05-18,"Pfizer/BioNTech, Moderna, Oxford/AstraZeneca, Johnson&Johnson",https://data.gov.lv/dati/eng/dataset/covid19-vakcinacijas,531341,405783,129393

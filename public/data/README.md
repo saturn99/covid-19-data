@@ -1,16 +1,16 @@
 # Data on COVID-19 (coronavirus) by _Our World in Data_
 
-Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by [_Our World in Data_](https://ourworldindata.org/coronavirus). It is updated daily and includes data on confirmed cases, deaths, hospitalizations, and testing, as well as other variables of potential interest.
+Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by [_Our World in Data_](https://ourworldindata.org/coronavirus). It is updated daily and includes data on confirmed cases, deaths, hospitalizations, testing, and vaccinations as well as other variables of potential interest.
 
 ### 🗂️ Download our complete COVID-19 dataset : [CSV](https://covid.ourworldindata.org/data/owid-covid-data.csv) | [XLSX](https://covid.ourworldindata.org/data/owid-covid-data.xlsx) | [JSON](https://covid.ourworldindata.org/data/owid-covid-data.json)
 
 We will continue to publish up-to-date data on confirmed cases, deaths, hospitalizations, testing, and vaccinations, throughout the duration of the COVID-19 pandemic.
 
 
-## Our data sources
+## The data you find here and our data sources
 
 - **Confirmed cases and deaths:** our data comes from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) (JHU). We discuss how and when JHU collects and publishes this data [here](https://ourworldindata.org/coronavirus-source-data). The cases & deaths dataset is updated daily. *Note: the number of cases or deaths reported by any institution—including JHU, the WHO, the ECDC and others—on a given day does not necessarily represent the actual number on that date. This is because of the long reporting chain that exists between a new case/death and its inclusion in statistics. **This also means that negative values in cases and deaths can sometimes appear when a country corrects historical data, because it had previously overestimated the number of cases/deaths. Alternatively, large changes can sometimes (although rarely) be made to a country's entire time series if JHU decides (and has access to the necessary data) to correct values retrospectively.***
-- **Hospitalizations and intensive care unit (ICU) admissions:** our data comes from the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/publications-data/download-data-hospital-and-icu-admission-rates-and-current-occupancy-covid-19) (ECDC) for a select number of European countries; the [government of the United Kingdom](https://coronavirus.data.gov.uk/details/healthcare); the [COVID Tracking Project](https://covidtracking.com/) for the United States; the [COVID-19 Tracker](https://covid19tracker.ca/) for Canada. Unfortunately, we are unable to provide data on hospitalizations for other countries: there is currently no global, aggregated database on COVID-19 hospitalization, and our team at _Our World in Data_ does not have the capacity to build such a dataset.
+- **Hospitalizations and intensive care unit (ICU) admissions:** our data comes from the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/publications-data/download-data-hospital-and-icu-admission-rates-and-current-occupancy-covid-19) (ECDC) for a select number of European countries; the [government of the United Kingdom](https://coronavirus.data.gov.uk/details/healthcare); the [Department of Health & Human Services](https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries) for the United States; the [COVID-19 Tracker](https://covid19tracker.ca/) for Canada. Unfortunately, we are unable to provide data on hospitalizations for other countries: there is currently no global, aggregated database on COVID-19 hospitalization, and our team at _Our World in Data_ does not have the capacity to build such a dataset.
 - **Testing for COVID-19:** this data is collected by the _Our World in Data_ team from official reports; you can find further details in our post on COVID-19 testing, including our [checklist of questions to understand testing data](https://ourworldindata.org/coronavirus-testing#our-checklist-for-covid-19-testing-data), information on [geographical and temporal coverage](https://ourworldindata.org/coronavirus-testing#which-countries-do-we-have-testing-data-for), and [detailed country-by-country source information](https://ourworldindata.org/coronavirus-testing#our-checklist-for-covid-19-testing-data). The testing dataset is updated around twice a week.
 - **Vaccinations against COVID-19:** this data is collected by the _Our World in Data_ team from official reports.
 - **Other variables:** this data is collected from a variety of sources (United Nations, World Bank, Global Burden of Disease, Blavatnik School of Government, etc.). More information is available in [our codebook](https://github.com/owid/covid-19-data/tree/master/public/data/owid-covid-codebook.csv).
@@ -42,6 +42,7 @@ If you are interested in the individual files that make up the complete dataset,
 - [`vaccinations`](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations): data from various official sources, related to COVID-19 vaccinations in each country;
 - [`who`](https://github.com/owid/covid-19-data/tree/master/public/data/who): data from the World Health Organization, related to confirmed cases and deaths—_we have stopped using and updating this data since 18 March 2020_;
 - [`ecdc`](https://github.com/owid/covid-19-data/tree/master/public/data/ecdc): data from the European Centre for Disease Prevention and Control, related to confirmed cases and deaths—_we have stopped using and updating this data since 30 November 2020_.
+- [`internal`](https://github.com/owid/covid-19-data/tree/master/public/data/internal): data extracts intended for internal use at _Our World in Data_. They may change or be deleted without notice so we discourage using them.
 
 
 ## Changelog
@@ -72,7 +73,8 @@ If you are interested in the individual files that make up the complete dataset,
 - On 6 January 2021, we added two variables for daily vaccinations to our complete dataset.
 - On 7 January 2021, we replaced the United Kingdom's hospital and ICU data previously gathered by the European CDC with [the official data published by the British government](https://coronavirus.data.gov.uk/details/healthcare).
 - On 26 January 2021, we added 4 variables on people vaccinated & people fully vaccinated to our complete dataset.
-- On 27 January 2021, we changed our method of data collection for confirmed cases and deaths in Sweden. Our source for COVID-19 cases and deaths, the [JHU CSSE COVID-19 Data](https://github.com/CSSEGISandData/COVID-19/), updates its figures for Sweden based on the date of report. But in the particular case of Sweden, we replace this data because the [Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/) doesn't report cases and deaths every day of the week, leading to time series that are very irregular and hard to interpret when plotted by date of report.
+- On 4 February 2021, we added rows for Africa, Asia, Europe, European Union, North America, Oceania, and South America to our complete dataset. The `iso_code` column for these rows starts with `OWID_`.
+- On 5 March 2021, due to [the COVID Tracking Project's announcement](https://covidtracking.com/analysis-updates/covid-tracking-project-end-march-7) that their data collection effort would stop in March 2021, we transitioned to the [Department of Health & Human Services](https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries) as our source for data on hospitalizations and ICU admissions in the United States.
 
 
 ## Data alterations
@@ -80,7 +82,6 @@ If you are interested in the individual files that make up the complete dataset,
 - The population estimates we use to calculate per-capita metrics are all based on the last revision of the [United Nations World Population Prospects](https://population.un.org/wpp/). The exact values can be viewed [here](https://github.com/owid/covid-19-data/blob/master/scripts/input/un/population_2020.csv).
 - We standardize names of countries and regions. Since the names of countries and regions are different in different data sources, we standardize all names to the [_Our World in Data_ standard entity names](https://github.com/owid/covid-19-data/blob/master/public/data/jhu/locations.csv).
 - We may correct or discard inconsistencies that we detect in the original data.
-- Our source for COVID-19 cases and deaths, the [JHU CSSE COVID-19 Data](https://github.com/CSSEGISandData/COVID-19/), updates its figures for Sweden based on the date of report. But in the particular case of Sweden, we replace this data because the [Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/) doesn't report cases and deaths every day of the week, leading to time series that are very irregular and hard to interpret when plotted by date of report.
 - Testing data is collected from many different sources. A detailed documentation for each country is available in [our post on COVID-19 testing](https://ourworldindata.org/coronavirus-testing#source-information-country-by-country).
 - Where we collect multiple time series for a given country in our testing data (for example: for the United States, we collect data from both the CDC, and the COVID Tracking Project), our complete COVID-19 dataset only includes the most complete, or, if equally complete, data on the number of people tested rather than the number of tests/samples/swabs processed. The list of 'secondary' test series (those removed) is located in [`scripts/input/owid/secondary_testing_series.csv`](https://github.com/owid/covid-19-data/blob/master/scripts/input/owid/secondary_testing_series.csv).
 
@@ -96,6 +97,9 @@ We have the goal to keep all stable URLs working, even when we have to restructu
 
 All visualizations, data, and code produced by _Our World in Data_ are completely open access under the [Creative Commons BY license](https://creativecommons.org/licenses/by/4.0/). You have the permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited.
 
+In the case of our vaccination dataset, please give the following citation:
+> Mathieu, E., Ritchie, H., Ortiz-Ospina, E. _et al._ A global database of COVID-19 vaccinations. _Nat Hum Behav_ (2021). [https://doi.org/10.1038/s41562-021-01122-8](https://doi.org/10.1038/s41562-021-01122-8)
+
 In the case of our testing dataset, please give the following citation:
 > Hasell, J., Mathieu, E., Beltekian, D. _et al._ A cross-country database of COVID-19 testing. _Sci Data_ **7**, 345 (2020). [https://doi.org/10.1038/s41597-020-00688-8](https://doi.org/10.1038/s41597-020-00688-8)
 
@@ -104,6 +108,6 @@ The data produced by third parties and made available by _Our World in Data_ is 
 
 ## Authors
 
-This data has been collected, aggregated, and documented by Cameron Appel, Diana Beltekian, Daniel Gavrilov, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Edouard Mathieu, Esteban Ortiz-Ospina, Hannah Ritchie, Max Roser.
+This data has been collected, aggregated, and documented by Cameron Appel, Diana Beltekian, Daniel Gavrilov, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Edouard Mathieu, Esteban Ortiz-Ospina, Hannah Ritchie, Lucas Rodés-Guirao, Max Roser.
 
 The mission of _Our World in Data_ is to make data and research on the world's largest problems understandable and accessible. [Read more about our mission](https://ourworldindata.org/about).

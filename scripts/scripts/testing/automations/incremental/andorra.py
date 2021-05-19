@@ -24,6 +24,7 @@ def get_date(soup):
         "gener": 1,
         "febrer": 2,
         "març": 3,
+        "mar": 3,
         "abril": 4,
         "maig": 5,
         "juny": 6,
@@ -35,10 +36,10 @@ def get_date(soup):
         "desembre": 12
     }
     date_str = soup.find(class_="text-primary tracking-normal text-lg font-bold mb-0").text.lower()
-    match = re.search(r"actualització (\d+) de ([a-z]+)", date_str)
+    match = re.search(r"actualització (\d+) d(e |')([a-z]+)", date_str)
     # Get day and month from website
     day = int(match.group(1))
-    month = int(month_map[match.group(2)])
+    month = int(month_map[match.group(3)])
     # Estimate year and build date
     year = datetime.datetime.now().year
     date = datetime.date(year, month, day)
@@ -58,7 +59,7 @@ def get_count(soup):
         int: Count of tests (PCR + TMA)
     """
     tag_id = "capacidtat"  # CHECK ON THIS! It is a typo on their side, correct spelling should be "capacitat"
-    values = soup.find(id=tag_id).findAll("div", class_="text-primary text-3xl font-bold pb-4")
+    values = [elem.find("span") for elem in soup.find(id=tag_id).find_all("div", class_="text-primary")]
     values = [int(x.text.replace(".", "")) for x in values]
     titles = [x.text.strip() for x in soup.find(id=tag_id).findAll("h3")]
     

@@ -18,7 +18,9 @@ Stored in [`locations.csv`](locations.csv)
 
 ### Vaccination data
 
-Stored in [`vaccinations.csv`](vaccinations.csv). Country-by-country data on global COVID-19 vaccinations. We only rely on figures that are verifiable based on public official sources.
+Stored in [`vaccinations.csv`](vaccinations.csv) and [`vaccinations.json`](vaccinations.json). Country-by-country data on global COVID-19 vaccinations. We only rely on figures that are verifiable based on public official sources.
+
+This dataset includes some subnational locations (England, Northern Ireland, Scotland, Wales, Northern Cyprus…) and international aggregates (World, continents, European Union…). They can be identified by their `iso_code` that starts with `OWID_`.
 
 The population estimates we use to calculate per-capita metrics are all based on the last revision of the [United Nations World Population Prospects](https://population.un.org/wpp/). The exact values can be viewed [here](https://github.com/owid/covid-19-data/blob/master/scripts/input/un/population_2020.csv).
 
@@ -73,3 +75,11 @@ In our data:
 * The total number of doses administered (`total_vaccinations`) will be equal to `4` (2 + 1 + 1);
 * The total number of people vaccinated (`people_vaccinated`) will be equal to `3` (Dina, Joel, Tommy);
 * The total number of people fully vaccinated (`people_fully_vaccinated`) will be equal to `1` (Dina).
+
+
+## License
+
+All visualizations, data, and code produced by _Our World in Data_ are completely open access under the [Creative Commons BY license](https://creativecommons.org/licenses/by/4.0/). You have the permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited.
+
+In the case of our vaccination dataset, please give the following citation:
+> Mathieu, E., Ritchie, H., Ortiz-Ospina, E. _et al._ A global database of COVID-19 vaccinations. _Nat Hum Behav_ (2021). [https://doi.org/10.1038/s41562-021-01122-8](https://doi.org/10.1038/s41562-021-01122-8)

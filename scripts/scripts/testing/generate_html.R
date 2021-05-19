@@ -71,7 +71,7 @@ for (c in countries) {
         html_add(sprintf('<p><strong>Positive rate: </strong>%s</p>',
                          plyr::mapvalues(row$pr_method, warn_missing = FALSE,
                                          from = c("official", "OWID", NA),
-                                         to = c("collected directly from the source.",
+                                         to = c("collected directly from the source. This means that the number of cases that can be deduced based on the number of tests and the positivity rate, is not necessarily equal to the number of cases visible in the rest of our COVID-19 data, which we import from Johns Hopkins University.",
                                          "calculated by Our World in Data as the 7-day rolling average of daily cases, divided by the 7-day rolling average of daily tests.",
                                          "not calculated (see detailed description)."))))
 
@@ -89,25 +89,4 @@ for (c in countries) {
 
 }
 
-if (nrow(attempts) > 0) {
-    html_add("<h3>Other countries</h3>")
-
-    html_add('<p>Below is the list of countries for which we have attempted to collect data but could not find official sources.</p>')
-
-    html_add('<ul>')
-    for (i in seq_len(nrow(attempts))) {
-        row <- attempts[i]
-
-        html_add('<li>')
-        html_add(sprintf(
-            '<strong>%s</strong> (last checked on %s): %s',
-            row$Entity,
-            format.Date(row$`Date last tried to add`, "%d %B %Y"),
-            activate_links(row$`Notes for OWID website`)
-        ))
-        html_add('</li>')
-    }
-    html_add('</ul>')
-}
-
-writeLines(HTML_CODE, sprintf("%s/html_for_post.html", CONFIG$internal_shared_folder))
+writeLines(HTML_CODE, "source_table.html")

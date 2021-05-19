@@ -15,15 +15,15 @@ new_cases_smoothed_per_million,COVID-19 Data Repository by the Center for System
 total_deaths_per_million,COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University,"Total deaths attributed to COVID-19 per 1,000,000 people"
 new_deaths_per_million,COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University,"New deaths attributed to COVID-19 per 1,000,000 people"
 new_deaths_smoothed_per_million,COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University,"New deaths attributed to COVID-19 (7-day smoothed) per 1,000,000 people"
-reproduction_rate,Arroyo Marioli et al. (2020). https://doi.org/10.2139/ssrn.3581633,Real-time estimate of the effective reproduction rate (R) of COVID-19. See http://trackingr-env.eba-9muars8y.us-east-2.elasticbeanstalk.com/FAQ
-icu_patients,European CDC for European countries / UK Government / COVID Tracking Project for the United States / COVID-19 Tracker for Canada,Number of COVID-19 patients in intensive care units (ICUs) on a given day
-icu_patients_per_million,European CDC for European countries / UK Government / COVID Tracking Project for the United States / COVID-19 Tracker for Canada,"Number of COVID-19 patients in intensive care units (ICUs) on a given day per 1,000,000 people"
-hosp_patients,European CDC for European countries / UK Government / COVID Tracking Project for the United States / COVID-19 Tracker for Canada,Number of COVID-19 patients in hospital on a given day
-hosp_patients_per_million,European CDC for European countries / UK Government / COVID Tracking Project for the United States / COVID-19 Tracker for Canada,"Number of COVID-19 patients in hospital on a given day per 1,000,000 people"
-weekly_icu_admissions,European CDC for European countries / UK Government / COVID Tracking Project for the United States,Number of COVID-19 patients newly admitted to intensive care units (ICUs) in a given week
-weekly_icu_admissions_per_million,European CDC for European countries / UK Government / COVID Tracking Project for the United States,"Number of COVID-19 patients newly admitted to intensive care units (ICUs) in a given week per 1,000,000 people"
-weekly_hosp_admissions,European CDC for European countries / UK Government / COVID Tracking Project for the United States,Number of COVID-19 patients newly admitted to hospitals in a given week
-weekly_hosp_admissions_per_million,European CDC for European countries / UK Government / COVID Tracking Project for the United States,"Number of COVID-19 patients newly admitted to hospitals in a given week per 1,000,000 people"
+reproduction_rate,Arroyo Marioli et al. (2020). https://doi.org/10.2139/ssrn.3581633,Real-time estimate of the effective reproduction rate (R) of COVID-19. See https://github.com/crondonm/TrackingR/tree/main/Estimates-Database
+icu_patients,European CDC for European countries / UK Government / HHS for the United States / COVID-19 Tracker for Canada,Number of COVID-19 patients in intensive care units (ICUs) on a given day
+icu_patients_per_million,European CDC for European countries / UK Government / HHS for the United States / COVID-19 Tracker for Canada,"Number of COVID-19 patients in intensive care units (ICUs) on a given day per 1,000,000 people"
+hosp_patients,European CDC for European countries / UK Government / HHS for the United States / COVID-19 Tracker for Canada,Number of COVID-19 patients in hospital on a given day
+hosp_patients_per_million,European CDC for European countries / UK Government / HHS for the United States / COVID-19 Tracker for Canada,"Number of COVID-19 patients in hospital on a given day per 1,000,000 people"
+weekly_icu_admissions,European CDC for European countries / UK Government,Number of COVID-19 patients newly admitted to intensive care units (ICUs) in a given week
+weekly_icu_admissions_per_million,European CDC for European countries / UK Government,"Number of COVID-19 patients newly admitted to intensive care units (ICUs) in a given week per 1,000,000 people"
+weekly_hosp_admissions,European CDC for European countries / UK Government / HHS for the United States,Number of COVID-19 patients newly admitted to hospitals in a given week
+weekly_hosp_admissions_per_million,European CDC for European countries / UK Government / HHS for the United States,"Number of COVID-19 patients newly admitted to hospitals in a given week per 1,000,000 people"
 total_tests,National government reports,Total tests for COVID-19
 new_tests,National government reports,New tests for COVID-19 (only calculated for consecutive days)
 total_tests_per_thousand,National government reports,"Total tests for COVID-19 per 1,000 people"
@@ -57,4 +57,4 @@ male_smokers,"World Bank World Development Indicators, sourced from World Health
 handwashing_facilities,United Nations Statistics Division,"Share of the population with basic handwashing facilities on premises, most recent year available"
 hospital_beds_per_thousand,"OECD, Eurostat, World Bank, national government records and other sources","Hospital beds per 1,000 people, most recent year available since 2010"
 life_expectancy,"James C. Riley, Clio Infra, United Nations Population Division",Life expectancy at birth in 2019
-human_development_index,United Nations Development Programme (UNDP),"Summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable and have a decent standard of living"
+human_development_index,United Nations Development Programme (UNDP),"A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. Values for 2019, imported from http://hdr.undp.org/en/indicators/137506"
